@@ -1,15 +1,11 @@
 {
-  "name": "Start on Heroku: Python",
-  "description": "A barebones Python app, which can easily be deployed to Heroku.",
+  "name": "flask on Heroku",
+  "description": "A barebones flask app, which can easily be deployed to Heroku.",
   "image": "heroku/python",
-  "repository": "https://github.com/heroku/python-getting-started",
-  "keywords": ["python", "django" ],
+  "repository": "https://github.com/vetsinen/flask-heroku",
+  "keywords": ["python", "flask" ],
   "addons": [ ],
   "env": {
-    "SECRET_KEY": {
-      "description": "The secret key for the Django application.",
-      "generator": "secret"
-    }
   },
   "environments": {
     "test": {
